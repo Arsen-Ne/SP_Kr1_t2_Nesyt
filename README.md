@@ -25,7 +25,7 @@ cd <название репозитория>
 ```
 - Дайте права на выполнение сценарию:
 ```
-chmod +x script.sh
+chmod +x myscript
 ```
 - Запустите сценарий, указав тип (folder или file) и путь к папке или файлу:
 ```
@@ -37,9 +37,9 @@ chmod +x script.sh
 
 Вывести список файлов в папке:
 ```
-./script.sh folder /path/to/folder
+./myscript folder /path/to/folder
 ```
 Выполнить замену слова в файле:
 ```
-./script.sh file /path/to/file.txt
+./myscript file /path/to/file.txt
 ```
